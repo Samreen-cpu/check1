@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR Section    -->
+    <div>
+        <Nav id="navbar">
+            <div id="logo">
+                <img src="FYP Logo.png" alt="">
+            </div>
+            <ul>
+                <li class="items">HOME</li>
+                <li class="items">ABOUT US</li>
+                <li class="items">CONTACT US</li>  
+                <li class="items">LOGIN/SIGNUP</li>
+            </ul>
+        </Nav>
+    </div>
+    <!-- Section -1 -->
+    <div id="section-1">
+        <h1><b>Welcome to Student Sphere</b></h1><br>   
+        <h2>Select your role to login</h2> <br> <br>
+        <div class="Login-button">
+            <div>
+                <img src="Admin btn.jpg" class="image"><br>
+                <p>As an Admin, you have full access to manage<br> the entire portal.
+                 You can add students, assign<br> courses, manage staff.</p><br>
+                <a href="/admin-login" class="btn">Admin Login</a>
+            </div>
+            <div>
+                <img src="Teacher btn.jpg" class="image"><br>
+                <p>As a Teacher, you can manage your courses, take <br>attendance,
+                 and access chatbot or students<br>assignments.</p><br>
+                <a href="/teacher-login" class="btn">Teacher Login</a>
+            </div>
+            <div>
+                <img src="Student btn.png" class="image"><br>
+                <p>As a Student, you can view your courses, track <br>your attendance
+                    access chatbot, and check Google <br>Classroom links for assignments</p><br>
+                <a href="/student-login" class="btn">Student Login</a>
+            </div>
+        </div>
+    </div>
+<!-- Section 2 -->
+     <div id="section-2">
+        <div class="sec2items">
+            <div>
+                <br><br><br><br><br><br><br><br>
+                <h1 class="sec2text">About Us</h1>
+                <p> Scholar Sphere is an innovative Student Management Portal<br> designed
+                 to streamline academic management for students<br> teachers, and administrators.</p><br><br>
+                <h3 class="sec2h3">Our Mission</h3><br>
+                <p>We aim to create an efficient, user-friendly platform where <br> students,
+                teachers, and admins can seamlessly interact.</p>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br>
+                <h3 class="sec2text">Why Scholar Sphere?</h3>
+                <p>We believe in simplifying student management with a clean <br>
+                and responsive interface.</p><br><br>
+                <h3 class="sec2h3">Key Features</h3><br>
+                <ul>
+                    <li>Student Dashboard – View courses, attendance.</li>
+                    <li>Teacher Dashboard – Manage assigned courses.</li>
+                    <li>Admin Panel – Handle student & staff data.</li>
+                    <li>Google Classroom Integration.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- Section - 3     -->
+    <div id="section-3">
+        <div>
+        <br><br><br>
+        <h1 id="sec3h1">Contact Us</h1>
+        <p id="sec3p">
+            Have any questions? Feel free to reach out to us.
+        </p>
+        </div><br><br><br>
+        <div class="section3items">
+            <!-- Left: Contact Form -->
+            <form class="contact-form">
+                <label for="name"> Name</label><br>
+                <input type="text" id="name" placeholder="" required><br><br>
+        
+                <label for="email"> Email</label><br>
+                <input type="email" id="email" placeholder="" required><br><br>
+        
+                <label for="message"> Message</label><br>
+                <textarea id="message" placeholder="" required></textarea><br><br>
+        
+                <button type="submit">Send Message</button>
+            </form>
+             <!-- Right: Contact Information -->
+             <div class="contact-info">
+                <div class="contact-item">
+                    <div class="icon">📍</div>
+                    <p><strong>Address</strong><br> Lahore College for Women University, Jail Road, Lahore-Pakistan</p>
+                </div>
+        
+                <div class="contact-item">
+                    <div class="icon">📧</div>
+                    <p><strong>Email</strong> <br>support@scholarsphere.com</p>
+                </div>
+        
+                <div class="contact-item">
+                    <div class="icon">📞</div>
+                    <p><strong>Phone</strong><br> +123 456 7890</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
