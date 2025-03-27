@@ -72,7 +72,7 @@
 }
 /* Section -2 */
 #section-2{
-    background-image: url("bg 2.png");
+    background-color: blue;
     background-size: cover; 
     height: 550px;
 }
